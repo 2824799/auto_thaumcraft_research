@@ -199,8 +199,8 @@ def see(crop):
 
     color_counter = Counter()
     su255 = 0
-    for y 在 range(crop.height):
-        for x 在 range(crop.width):
+    for y in range(crop.height):
+        for x in range(crop.width):
             r_, g_, b_ = pixels[x, y]
             if (r_, g_, b_) != (255, 255, 255):
                 su255+=1
@@ -212,7 +212,7 @@ def see(crop):
     if color_counter:
         most_common_color, count = color_counter.most_common(1)[0]
         #print(f"最常见的颜色是: {most_common_color}，出现次数: {count}")
-        if most_common_color 在 ys:
+        if most_common_color in ys:
             return getids[ys[most_common_color]]
         else:
             print(f"无法识别：最常见的颜色是: {most_common_color}，出现次数: {count}")
