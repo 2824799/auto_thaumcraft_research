@@ -142,3 +142,5 @@ chronos: FA时间
 priscus: 遗蜕
 luacdiaoz: 辣条
 rattus: 老鼠
+caelum: 94,116,207
+tabernus: 0,1,1

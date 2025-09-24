@@ -62,3 +62,5 @@ vinculum
 vitium
 vitreus
 volatus
+caelum
+tabernus
